@@ -49,3 +49,7 @@ primay reason for this repo is to build dynamic end points complete programatica
 ### 1.5.22.1
 
 started
+
+### 1.5.22.2
+
+Front end changed
