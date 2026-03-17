@@ -2,8 +2,8 @@
     "tableName": "ItemsTable",
     "columns": [
         {
-            "field": "ItemName",
-            "title": "ItemName",
+            "field": "StockItemName",
+            "title": "StockItemName",
             "unique": false,
             "type": "text",
             "isInput": false,
@@ -78,9 +78,11 @@
             "field": "Uom",
             "title": "Uom",
             "unique": false,
-            "defaultvalue": "Nos",
+            "type": "number",
+            "isNumber": true,
+            "defaultvalue": 18,
             "isConsider": true,
-            "showInUi": false
+            "showInUi": true
         }
     ],
     "data": [],
@@ -138,6 +140,26 @@
             "WidthOptions": {
                 "inPx": 250
             }
+        },
+        {
+            "field": "TaxPer",
+            "title": "TaxPer",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "defaultvalue": 18,
+            "isConsider": true,
+            "showInUi": true
+        },
+        {
+            "field": "Uom",
+            "title": "Uom",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "defaultvalue": 18,
+            "isConsider": true,
+            "showInUi": true
         }
     ],
     "DataTableOptions": {
